@@ -22,9 +22,9 @@ package com.nextcloud.talk.utils
 import android.content.Context
 import android.content.res.Resources
 import com.nextcloud.talk.R
-import com.nextcloud.talk.data.user.model.User
-import com.nextcloud.talk.models.json.conversations.Conversation
-import com.nextcloud.talk.users.UserManager
+import com.zeuscloud.talk.data.user.model.User
+import com.zeuscloud.talk.models.json.conversations.Conversation
+import com.zeuscloud.talk.users.UserManager
 import io.reactivex.Maybe
 import org.junit.Assert
 import org.junit.Before

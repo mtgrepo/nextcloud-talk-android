@@ -65,7 +65,7 @@
             app:tint="?attr/colorControlNormal"
             android:contentDescription="@string/nc_add_emojis" />
 
-        <com.nextcloud.talk.utils.ImageEmojiEditText
+        <com.zeuscloud.talk.utils.ImageEmojiEditText
             android:id="@id/messageInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
             tools:visibility="gone"
             android:contentDescription="@null" />
 
-        <com.nextcloud.talk.ui.MicInputCloud
+        <com.zeuscloud.talk.ui.MicInputCloud
             android:id="@+id/micInputCloud"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

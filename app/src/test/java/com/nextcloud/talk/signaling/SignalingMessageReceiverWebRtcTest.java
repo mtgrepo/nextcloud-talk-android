@@ -19,9 +19,9 @@
  */
 package com.nextcloud.talk.signaling;
 
-import com.nextcloud.talk.models.json.signaling.NCIceCandidate;
-import com.nextcloud.talk.models.json.signaling.NCMessagePayload;
-import com.nextcloud.talk.models.json.signaling.NCSignalingMessage;
+import com.zeuscloud.talk.models.json.signaling.NCIceCandidate;
+import com.zeuscloud.talk.models.json.signaling.NCMessagePayload;
+import com.zeuscloud.talk.models.json.signaling.NCSignalingMessage;
 
 import org.junit.Assert;
 import org.junit.Before;

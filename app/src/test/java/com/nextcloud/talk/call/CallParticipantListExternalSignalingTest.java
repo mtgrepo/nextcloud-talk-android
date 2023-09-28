@@ -19,8 +19,8 @@
  */
 package com.nextcloud.talk.call;
 
-import com.nextcloud.talk.models.json.participants.Participant;
-import com.nextcloud.talk.signaling.SignalingMessageReceiver;
+import com.zeuscloud.talk.models.json.participants.Participant;
+import com.zeuscloud.talk.signaling.SignalingMessageReceiver;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -34,15 +34,15 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import static com.nextcloud.talk.models.json.participants.Participant.InCallFlags.DISCONNECTED;
-import static com.nextcloud.talk.models.json.participants.Participant.InCallFlags.IN_CALL;
-import static com.nextcloud.talk.models.json.participants.Participant.InCallFlags.WITH_AUDIO;
-import static com.nextcloud.talk.models.json.participants.Participant.InCallFlags.WITH_VIDEO;
-import static com.nextcloud.talk.models.json.participants.Participant.ParticipantType.GUEST;
-import static com.nextcloud.talk.models.json.participants.Participant.ParticipantType.GUEST_MODERATOR;
-import static com.nextcloud.talk.models.json.participants.Participant.ParticipantType.MODERATOR;
-import static com.nextcloud.talk.models.json.participants.Participant.ParticipantType.OWNER;
-import static com.nextcloud.talk.models.json.participants.Participant.ParticipantType.USER;
+import static com.zeuscloud.talk.models.json.participants.Participant.InCallFlags.DISCONNECTED;
+import static com.zeuscloud.talk.models.json.participants.Participant.InCallFlags.IN_CALL;
+import static com.zeuscloud.talk.models.json.participants.Participant.InCallFlags.WITH_AUDIO;
+import static com.zeuscloud.talk.models.json.participants.Participant.InCallFlags.WITH_VIDEO;
+import static com.zeuscloud.talk.models.json.participants.Participant.ParticipantType.GUEST;
+import static com.zeuscloud.talk.models.json.participants.Participant.ParticipantType.GUEST_MODERATOR;
+import static com.zeuscloud.talk.models.json.participants.Participant.ParticipantType.MODERATOR;
+import static com.zeuscloud.talk.models.json.participants.Participant.ParticipantType.OWNER;
+import static com.zeuscloud.talk.models.json.participants.Participant.ParticipantType.USER;
 import static org.mockito.ArgumentMatchers.argThat;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.inOrder;

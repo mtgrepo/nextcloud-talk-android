@@ -21,8 +21,8 @@
 
 package com.nextcloud.talk.test.fakes
 
-import com.nextcloud.talk.models.domain.SearchMessageEntry
-import com.nextcloud.talk.repositories.unifiedsearch.UnifiedSearchRepository
+import com.zeuscloud.talk.models.domain.SearchMessageEntry
+import com.zeuscloud.talk.repositories.unifiedsearch.UnifiedSearchRepository
 import io.reactivex.Observable
 
 class FakeUnifiedSearchRepository : UnifiedSearchRepository {

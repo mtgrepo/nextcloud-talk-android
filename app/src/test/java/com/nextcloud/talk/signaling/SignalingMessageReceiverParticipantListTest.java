@@ -19,7 +19,7 @@
  */
 package com.nextcloud.talk.signaling;
 
-import com.nextcloud.talk.models.json.participants.Participant;
+import com.zeuscloud.talk.models.json.participants.Participant;
 
 import org.junit.Assert;
 import org.junit.Before;

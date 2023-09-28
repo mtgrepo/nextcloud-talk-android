@@ -19,7 +19,7 @@
  */
 package com.nextcloud.talk.webrtc
 
-import com.nextcloud.talk.webrtc.PeerConnectionWrapper.PeerConnectionObserver
+import com.zeuscloud.talk.webrtc.PeerConnectionWrapper.PeerConnectionObserver
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mockito

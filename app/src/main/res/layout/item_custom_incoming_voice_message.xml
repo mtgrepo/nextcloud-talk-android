@@ -92,7 +92,7 @@
                 app:iconTint="@color/nc_incoming_text_default" />
 
 
-            <com.nextcloud.talk.ui.WaveformSeekBar
+            <com.zeuscloud.talk.ui.WaveformSeekBar
                 android:id="@+id/seekbar"
                 android:layout_width="0dp"
                 android:layout_height="70dp"

@@ -44,7 +44,7 @@
         app:errorTextAppearance="@style/ErrorAppearance"
         app:hintTextColor="@color/colorPrimary">
 
-        <com.nextcloud.talk.utils.EmojiTextInputEditText
+        <com.zeuscloud.talk.utils.EmojiTextInputEditText
             android:id="@+id/poll_option_text_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

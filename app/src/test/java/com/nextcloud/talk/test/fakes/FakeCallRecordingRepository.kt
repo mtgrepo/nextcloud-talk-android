@@ -21,9 +21,9 @@
 
 package com.nextcloud.talk.test.fakes
 
-import com.nextcloud.talk.models.domain.StartCallRecordingModel
-import com.nextcloud.talk.models.domain.StopCallRecordingModel
-import com.nextcloud.talk.repositories.callrecording.CallRecordingRepository
+import com.zeuscloud.talk.models.domain.StartCallRecordingModel
+import com.zeuscloud.talk.models.domain.StopCallRecordingModel
+import com.zeuscloud.talk.repositories.callrecording.CallRecordingRepository
 import io.reactivex.Observable
 
 class FakeCallRecordingRepository : CallRecordingRepository {

@@ -259,7 +259,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.nextcloud.talk.ui.MessageInput
+        <com.zeuscloud.talk.ui.MessageInput
             android:id="@+id/messageInputView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

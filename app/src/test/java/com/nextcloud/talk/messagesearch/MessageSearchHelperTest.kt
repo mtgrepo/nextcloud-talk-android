@@ -21,8 +21,8 @@
 
 package com.nextcloud.talk.messagesearch
 
-import com.nextcloud.talk.models.domain.SearchMessageEntry
-import com.nextcloud.talk.repositories.unifiedsearch.UnifiedSearchRepository
+import com.zeuscloud.talk.models.domain.SearchMessageEntry
+import com.zeuscloud.talk.repositories.unifiedsearch.UnifiedSearchRepository
 import com.nextcloud.talk.test.fakes.FakeUnifiedSearchRepository
 import io.reactivex.Observable
 import org.junit.Assert

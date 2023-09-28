@@ -22,8 +22,8 @@
 
 package com.nextcloud.talk.utils
 
-import com.nextcloud.talk.data.user.model.User
-import com.nextcloud.talk.models.json.conversations.Conversation
+import com.zeuscloud.talk.data.user.model.User
+import com.zeuscloud.talk.models.json.conversations.Conversation
 import junit.framework.TestCase
 import org.junit.Test
 

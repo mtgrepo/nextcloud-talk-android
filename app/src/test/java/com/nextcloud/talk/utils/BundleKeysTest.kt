@@ -19,7 +19,7 @@
  */
 package com.nextcloud.talk.utils
 
-import com.nextcloud.talk.utils.bundle.BundleKeys
+import com.zeuscloud.talk.utils.bundle.BundleKeys
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
 class BundleKeysTest {

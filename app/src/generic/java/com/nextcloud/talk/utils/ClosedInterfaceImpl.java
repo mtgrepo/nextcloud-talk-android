@@ -23,7 +23,7 @@
 package com.nextcloud.talk.utils;
 
 
-import com.nextcloud.talk.interfaces.ClosedInterface;
+import com.zeuscloud.talk.interfaces.ClosedInterface;
 
 public class ClosedInterfaceImpl implements ClosedInterface {
     @Override

@@ -27,7 +27,7 @@ package com.nextcloud.talk.ui;
 import android.os.Bundle;
 
 import com.nextcloud.talk.R;
-import com.nextcloud.talk.activities.MainActivity;
+import com.zeuscloud.talk.activities.MainActivity;
 
 import org.junit.Ignore;
 import org.junit.Test;

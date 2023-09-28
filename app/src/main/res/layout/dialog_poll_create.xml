@@ -58,7 +58,7 @@
             app:errorTextAppearance="@style/ErrorAppearance"
             app:hintTextColor="@color/colorPrimary">
 
-            <com.nextcloud.talk.utils.EmojiTextInputEditText
+            <com.zeuscloud.talk.utils.EmojiTextInputEditText
                 android:id="@+id/poll_create_question_text_edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
 
                 <requestFocus />
 
-            </com.nextcloud.talk.utils.EmojiTextInputEditText>
+            </com.zeuscloud.talk.utils.EmojiTextInputEditText>
 
         </com.google.android.material.textfield.TextInputLayout>
 

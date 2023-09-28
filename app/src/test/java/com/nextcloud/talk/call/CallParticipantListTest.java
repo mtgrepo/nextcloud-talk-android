@@ -19,7 +19,7 @@
  */
 package com.nextcloud.talk.call;
 
-import com.nextcloud.talk.signaling.SignalingMessageReceiver;
+import com.zeuscloud.talk.signaling.SignalingMessageReceiver;
 
 import org.junit.Before;
 import org.junit.Test;

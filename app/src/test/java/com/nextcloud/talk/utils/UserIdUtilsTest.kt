@@ -21,7 +21,7 @@
  */
 package com.nextcloud.talk.utils
 
-import com.nextcloud.talk.data.user.model.User
+import com.zeuscloud.talk.data.user.model.User
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test

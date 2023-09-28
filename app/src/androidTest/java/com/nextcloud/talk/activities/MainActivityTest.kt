@@ -1,7 +1,7 @@
 package com.nextcloud.talk.activities
 
 import androidx.test.espresso.intent.rule.IntentsTestRule
-import com.nextcloud.talk.users.UserManager
+import com.zeuscloud.talk.users.UserManager
 import org.junit.Assert.assertNotNull
 import org.junit.Rule
 import org.junit.Test
