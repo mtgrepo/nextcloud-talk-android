@@ -32,6 +32,7 @@ import android.graphics.Typeface
 import android.os.Build
 import android.text.TextUtils
 import android.text.format.DateUtils
+import android.util.Log
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
@@ -155,6 +156,7 @@ class ConversationItem(
         } else {
             holder.binding.userStatusImage.visibility = View.GONE
         }
+        Log.d("ZeusCloudTalk........",holder.toString())
         setLastMessage(holder, appContext)
         showAvatar(holder)
     }

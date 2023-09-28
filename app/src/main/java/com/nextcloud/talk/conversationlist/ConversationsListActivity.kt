@@ -359,6 +359,8 @@ class ConversationsListActivity :
                 true
             )
 
+            Log.d("ZeusCloudTalk........",url.toString())
+
             val credentials = ApiUtils.getCredentials(currentUser!!.username, currentUser!!.token)
 
             context.imageLoader.enqueue(
@@ -607,6 +609,7 @@ class ConversationsListActivity :
         isRefreshing = true
         conversationItems = ArrayList()
         conversationItemsWithHeader = ArrayList()
+        Log.d("ZeusCloudTalk........",currentUser.toString())
         val apiVersion = ApiUtils.getConversationApiVersion(currentUser, intArrayOf(ApiUtils.APIv4, ApiUtils.APIv3, 1))
         val startNanoTime = System.nanoTime()
         Log.d(TAG, "fetchData - getRooms - calling: $startNanoTime")
@@ -636,8 +639,10 @@ class ConversationsListActivity :
                     binding?.loadingContent?.visibility = View.GONE
                 }
                 initOverallLayout(ocs!!.data!!.isNotEmpty())
+                Log.d("ZeusCloudTalk........ ocs data",ocs!!.data!!.toString())
                 for (conversation in ocs.data!!) {
                     addToConversationItems(conversation)
+                    Log.d("ZeusCloudTalk........ Ocs Data----",conversation.toString())
                 }
                 sortConversations(conversationItems)
                 sortConversations(conversationItemsWithHeader)
