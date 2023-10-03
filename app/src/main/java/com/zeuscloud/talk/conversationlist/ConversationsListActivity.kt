@@ -103,7 +103,7 @@ import com.zeuscloud.talk.ui.dialog.ConversationsListBottomDialog
 import com.zeuscloud.talk.ui.dialog.FilterConversationFragment
 import com.zeuscloud.talk.users.UserManager
 import com.zeuscloud.talk.utils.ApiUtils
-import com.nextcloud.talk.utils.ClosedInterfaceImpl
+import com.zeuscloud.talk.utils.ClosedInterfaceImpl
 import com.zeuscloud.talk.utils.FileUtils
 import com.zeuscloud.talk.utils.Mimetype
 import com.zeuscloud.talk.utils.ParticipantPermissions

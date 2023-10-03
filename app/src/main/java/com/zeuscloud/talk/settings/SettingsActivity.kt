@@ -159,7 +159,8 @@ class SettingsActivity : BaseActivity() {
 
         setupPrivacyUrl()
         setupSourceCodeUrl()
-        binding.settingsVersionSummary.text = String.format("v" + BuildConfig.VERSION_NAME)
+
+        // binding.settingsVersionSummary.text = String.format("v" + BuildConfig.VERSION_NAME)
 
         setupSoundSettings()
 

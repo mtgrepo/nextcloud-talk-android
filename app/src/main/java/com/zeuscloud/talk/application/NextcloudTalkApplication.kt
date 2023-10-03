@@ -63,7 +63,7 @@ import com.zeuscloud.talk.jobs.CapabilitiesWorker
 import com.zeuscloud.talk.jobs.SignalingSettingsWorker
 import com.zeuscloud.talk.jobs.WebsocketConnectionsWorker
 import com.zeuscloud.talk.ui.theme.ThemeModule
-import com.nextcloud.talk.utils.ClosedInterfaceImpl
+import com.zeuscloud.talk.utils.ClosedInterfaceImpl
 import com.zeuscloud.talk.utils.DeviceUtils
 import com.zeuscloud.talk.utils.NotificationUtils
 import com.zeuscloud.talk.utils.database.arbitrarystorage.ArbitraryStorageModule

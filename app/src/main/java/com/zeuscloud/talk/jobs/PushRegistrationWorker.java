@@ -38,7 +38,7 @@ import retrofit2.Retrofit;
 
 import com.zeuscloud.talk.api.NcApi;
 import com.zeuscloud.talk.application.NextcloudTalkApplication;
-import com.nextcloud.talk.utils.ClosedInterfaceImpl;
+import com.zeuscloud.talk.utils.ClosedInterfaceImpl;
 import com.zeuscloud.talk.utils.PushUtils;
 
 import java.net.CookieManager;
